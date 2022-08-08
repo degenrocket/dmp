@@ -42,3 +42,36 @@ Examples of valid actions:
 "action":"moderate"
 "action":"share"
 ```
+
+### Targets
+
+A target can be:
+
+* an ID of an action/event (equals to its signature in DMP),
+
+* any public key,
+
+* a media file hash (torrent, IPFS),
+
+* a URL,
+
+* any other string.
+
+Examples of valid targets:
+
+```
+// an id of an action/event (equals to its signature in DMP)
+"target":"0xbd934a01dc3bd9bb183bda807d35e61accf7396c527b8a3d029c20c00b294cf029997be953772da32483b077eea856e6bafcae7a2aff95ae572af25dd3e204a71b"
+
+// any public key
+"target":"0xf8553015220a857eda377a1e903c9e5afb3ac2fa"
+
+// a sentence
+"target":"code is free speech"
+
+// a word
+"target":"ivermectin"
+
+// a protocol version
+"target":"dmp_v0.1.0"
+```
