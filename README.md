@@ -75,3 +75,15 @@ Examples of valid targets:
 // a protocol version
 "target":"dmp_v0.1.0"
 ```
+
+### Licenses
+
+To avoid any potential legal responsibilities for distributing the copyright-protected content, the MIT License (MIT) should be added to each signed action/event by default.
+
+Users might choose different licenses, but then the majority of the network participants will probably reject such actions/events.
+
+Examples of valid targets:
+
+```
+"license":"MIT"
+```
