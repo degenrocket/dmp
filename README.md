@@ -78,12 +78,12 @@ Examples of valid targets:
 
 ### Licenses
 
-To avoid any potential legal responsibilities for distributing the copyright-protected content, the MIT License (MIT) should be added to each signed action/event by default.
+To avoid any potential legal responsibilities for distributing the copyright-protected content, the Creative Commons Zero v1.0 Universal (CC0-1.0) license should be added to each signed action/event by default. (Here is a license-related [discussion](https://github.com/nostr-protocol/nips/pull/857) regards to the Nostr protocol.)
 
-Users might choose different licenses, but then the majority of the network participants will probably reject such actions/events.
+Users might choose different licenses, and then the network participants can decide whether to accept or reject such actions/events.
 
-Examples of valid targets:
+Example:
 
 ```
-"license":"MIT"
+"license":"SPDX-License-Identifier: CC0-1.0"
 ```
